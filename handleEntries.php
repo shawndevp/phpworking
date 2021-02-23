@@ -1,4 +1,3 @@
-
 <?php 
 
 $dsn = "mysql:host=localhost;dbname=uppgift";
@@ -23,6 +22,7 @@ if($stm->execute()){
     header("location:entries.php");
     
 }
+
 else{
     echo "Något gick fel!";
 }
